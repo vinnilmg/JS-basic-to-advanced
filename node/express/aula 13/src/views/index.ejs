@@ -1,0 +1,24 @@
+<%- include('includes/head'); %> <%# Incluindo head e footer %>
+
+<section class="container">
+    <h2>
+        <% if(typeof titulo !== 'undefined') { %>
+            <%= titulo %>
+        <% } else { %>
+            Não tem titulo
+        <% } %>
+    </h2>
+    
+    <%# Exemplo de comentário %>
+    <p>Sou o usuario: <%= usuario %></p>
+
+    FOR:
+    <% for(let n of numeros) { %>
+        </br> <%= n %> 
+    <% } %>
+
+    <%# Variavel definida no middleware %>
+    <h1><%= variavelLocal %></h1>
+</section>
+
+<%- include('includes/footer') %>

@@ -1,0 +1,31 @@
+<%- include('includes/head'); %> <%# Incluindo head e footer %>
+
+<section class="container">
+    <h2>
+        <% if(typeof titulo !== 'undefined') { %>
+            <%= titulo %>
+        <% } else { %>
+            Não tem titulo
+        <% } %>
+    </h2>
+    
+    <%# Exemplo de comentário %>
+    <p>Sou o usuario: <%= usuario %></p>
+
+    FOR:
+    <% for(let n of numeros) { %>
+        </br> <%= n %> 
+    <% } %>
+
+    <%# Variavel definida no middleware %>
+    <h1><%= variavelLocal %></h1>
+
+    <form method="post" action="/">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
+        <input type="text" name="name">
+        <button type="submit">Botao</button>
+    </form>
+
+</section>
+
+<%- include('includes/footer'); %>
