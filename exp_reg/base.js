@@ -5,7 +5,19 @@ Consequat deserunt aliqua consequat esse consequat. Sit occaecat elit quis conse
 Cillum id laboris Lorem qui non anim irure incididunt officia. Do dolore nulla sint est laborum. Voluptate et culpa irure nulla. 
 Deserunt qui labore tempor dolor fugiat ex eiusmod veniam nulla magna minim.
 Vini, Vinicius, VINNIZADA, EUUUUU ---
-VINNNNNNNI, VINI, ViNi, vinim maria, mariazinha, MMARIA
+VINNNNNNNI, VINI, ViNi, vinim maria, mariazinha, MMMMMARIA
+VIIIIIINIIIIIIIIII
 `;
 
-module.exports = { texto };
+const files = [
+  'atencao.jpg',
+  'foto.jpg',
+  'meu gato.JPEG',
+  'meu gatinho.jpeg',
+  'meu gatinho.jpeeeEEEEeg',
+  'marido.JPG',
+  'lista.png',
+  'compras.txt',
+];
+
+module.exports = { texto, files };
