@@ -20,4 +20,9 @@ const files = [
   'compras.txt',
 ];
 
-module.exports = { texto, files };
+const html = `<script>teste</script> <p>bold</p> <tag>123</tag>`;
+
+const alfabeto =
+  'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz @! 0123456789 ! atenção';
+
+module.exports = { texto, files, html, alfabeto };
