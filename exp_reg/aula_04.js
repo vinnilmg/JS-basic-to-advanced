@@ -4,4 +4,4 @@ const { html } = require('./base');
 
 // obtendo qualquer tag HTML
 console.log('Greedy:', html.match(/<.+>.+<\/.+>/g)); // -> greedy (comportamento padrão)
-console.log('Non-greedy:', html.match(/<.+?>.+?<\/.+?>/g)); // -> non-greedy
+console.log('Non-greedy:', html.match(/<.+?>.+?<\/.+?>/g)); // -> non-greedy (?)

@@ -25,4 +25,28 @@ const html = `<script>teste</script> <p>bold</p> <tag>123</tag>`;
 const alfabeto =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz @! 0123456789 ! atenção';
 
-module.exports = { texto, files, html, alfabeto };
+const cpfs = `
+Os cfps são:
+  254.224.333-15 123.456.789-10 111.111.111-22
+  
+  12345678910
+  111.111.123.12
+  000.123.456-12`;
+
+const ips = `
+Os ips são:
+  0.0.0.0
+
+  192.168.0.25
+  
+    10.10.5.12
+
+  255.255.255.255
+
+  999.999.999.999
+  123.123.123.123
+  300.300.300.300
+  789.14.124.789
+`;
+
+module.exports = { texto, files, html, alfabeto, cpfs, ips };
