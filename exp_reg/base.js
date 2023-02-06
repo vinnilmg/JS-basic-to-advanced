@@ -49,4 +49,15 @@ Os ips são:
   789.14.124.789
 `;
 
-module.exports = { texto, files, html, alfabeto, cpfs, ips };
+const cpfs2 = `
+123.456.789-12
+111.111.111-11
+124-124.111-14
+000.000.000-17
+00000000000
+0.0.0-0
+145.567.897-11
+222.123.222-17
+`;
+
+module.exports = { texto, files, html, alfabeto, cpfs, ips, cpfs2 };
