@@ -60,4 +60,29 @@ const cpfs2 = `
 222.123.222-17
 `;
 
-module.exports = { texto, files, html, alfabeto, cpfs, ips, cpfs2 };
+const html2 = `<p 
+class="teste teste" 
+data-teste='teste'>
+Testeeeee
+</p> <p>Olá mundo</p> <b>teste</b>`;
+
+const lookahed = `
+ONLINE 192.168.0.1 V123 active
+OFFLINE 192.168.0.2 V123 inactive
+ONLINE 192.168.0.3 V123 active
+ONLINE 192.168.0.4 V123 inactive
+OFFLINE 192.168.0.5 V123 inactive
+OFFLINE 192.168.0.6 V123 active
+`;
+
+module.exports = {
+  texto,
+  files,
+  html,
+  alfabeto,
+  cpfs,
+  ips,
+  cpfs2,
+  html2,
+  lookahed,
+};
