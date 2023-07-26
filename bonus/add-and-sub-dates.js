@@ -64,7 +64,7 @@ console.log(formatDate(date));
 // Comparar 2 datas
 const start = new Date('2019-01-01T12:00:00-03:00');
 const end = new Date('2020-01-01T12:00:00-03:00');
-const result = end - start; // retorna em milisegundos
+const result = end - start; // retorna em milissegundos
 
 const segundos = result / 1000;
 const minutos = segundos / 60;
